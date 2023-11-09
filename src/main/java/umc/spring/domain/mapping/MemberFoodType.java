@@ -12,6 +12,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import umc.spring.domain.FoodType;
 import umc.spring.domain.Member;
 import umc.spring.domain.base.BaseEntity;
@@ -19,6 +20,7 @@ import umc.spring.domain.base.BaseEntity;
 
 @Entity
 @Getter
+@Setter
 @Builder
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
