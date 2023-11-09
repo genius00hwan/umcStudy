@@ -14,7 +14,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import javax.persistence.OneToMany;
-import javax.persistence.criteria.CriteriaBuilder.In;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -62,7 +61,7 @@ public class Member extends BaseEntity {
 
     private Integer point;
 
-    private LocalDate birth_date;
+    private LocalDate birthDate;
 
     private LocalDate inactiveDate;
 
